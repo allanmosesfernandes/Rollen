@@ -54,8 +54,14 @@
 		}
 	  }
 	  
-	  .blinking {
-		animation: blink 1s infinite;
-	  }
+	.blinking {
+	animation: blink 1s infinite;
+	}
+
+	.bg-tools {
+		background-image: url("../images/my-tools.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 	  
 }

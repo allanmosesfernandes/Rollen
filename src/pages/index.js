@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import FirstFold from '../components/FirstFold'
 import Landing from '../components/Landing'
+import Skills from '../components/Skills'
 
 const index = () => {
   return (
@@ -9,6 +10,7 @@ const index = () => {
       <Header />
       <Landing />
       <FirstFold />
+      <Skills />
     </div>
   )
 }
