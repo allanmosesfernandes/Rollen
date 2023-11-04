@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Layout */
+@layer components {
+
+	html,
+	body {
+		scroll-behavior: smooth;
+	}
+    body {
+        @apply bg-rol-yellow;
+    }
+}
