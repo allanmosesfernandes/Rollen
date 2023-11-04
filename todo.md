@@ -1,6 +1,7 @@
 # Todo List
 
-- [ ] Header
+- [x] Header Desktop
+- [ ] Make mobile header
 - [ ] First Fold
 - [ ] Footer
 - [ ] Launch

@@ -14,14 +14,48 @@
         @apply bg-black;
     }
 	@font-face {
+		font-family: "geist-semibold";
+		src: url("../../assets/Geist/GeistMono/GeistMono-SemiBold.otf") format("opentype");
+		font-style: normal;
+	}
+	@font-face {
 		font-family: "geist-regular";
-		src: url("../../assets/Geist/Geist-Regular.otf") format("opentype");
+		src: url("../../assets/Geist/GeistMono/GeistMono-Regular.otf") format("opentype");
 		font-style: normal;
 	}
 
 	@font-face {
 		font-family: "geist-light";
-		src: url("../../assets/Geist/Geist-Light.otf") format("opentype");
+		src: url("../../assets/Geist/GeistMono/GeistMono-Light.otf") format("opentype");
 		font-style: normal;
 	}
+
+	.typed-bg input{
+		background: transparent !important;
+	}
+	.bg-img-eclipse {
+		background-image: url("../images/ellipse-4.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
+	.bg-neon {
+		background-image: url("../images/shit.gif");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
+	@keyframes blink {
+		0%, 100% {
+		  stroke: #FBFF22; /* Original color */
+		}
+		50% {
+		  stroke: transparent; /* Blink to transparent or another color */
+		}
+	  }
+	  
+	  .blinking {
+		animation: blink 1s infinite;
+	  }
+	  
 }

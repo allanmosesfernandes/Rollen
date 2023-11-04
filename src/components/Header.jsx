@@ -3,7 +3,7 @@ import RFlogo from "../images/rf_logo_white.png";
 import { Link } from 'gatsby';
 const Header = () => {
   return (
-    <header className='container mx-auto flex gap-2 py-2 border-b-2 border-gray-alpha font-geistLight items-center'>
+    <header className=' flex gap-2 py-2 border-b-2 border-gray-alpha font-geistLight items-center'>
         <div className="">
             <img src={RFlogo} alt="Rollens Logo" className="w-[80px]" />
         </div>
