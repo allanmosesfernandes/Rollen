@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../components/Header'
 
 const index = () => {
   return (
-    <div className='text-2xl'>Lode ka dfdfdfdfdfdfd</div>
+    <>
+      <Header />
+    </>
   )
 }
 

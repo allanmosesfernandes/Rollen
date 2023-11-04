@@ -11,6 +11,17 @@
 		scroll-behavior: smooth;
 	}
     body {
-        @apply bg-rol-yellow;
+        @apply bg-black;
     }
+	@font-face {
+		font-family: "geist-regular";
+		src: url("../../assets/Geist/Geist-Regular.otf") format("opentype");
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: "geist-light";
+		src: url("../../assets/Geist/Geist-Light.otf") format("opentype");
+		font-style: normal;
+	}
 }
