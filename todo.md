@@ -6,4 +6,7 @@
 - [ ] Footer
 - [ ] Launch
 - [ ] Favicon
-- [ ] 
+
+<!-- https://www.facebook.com/rollen.fernandes -->
+<!-- https://www.instagram.com/rollen_fernandes/ -->
+<!-- https://www.youtube.com/@rollenplays -->
