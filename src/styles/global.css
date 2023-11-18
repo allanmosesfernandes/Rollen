@@ -65,3 +65,14 @@
 	}
 	  
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Adjust the number of columns as needed */
+    grid-template-rows: repeat(6, 1fr); /* Adjust the number of rows as needed */
+    grid-gap: 10px; /* Adjust the gap size as needed */
+    height: 100vh; /* Set the container height */
+    border: 1px solid black; /* Border for the container */
+  }
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8); /* Border for grid items */
+  }

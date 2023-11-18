@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import Profile from "../images/me-1.png";
+import Profile from "../images/real-me.jpeg";
 import YellowButton from "./utils/Buttons/YellowButton";
 import WhiteButton from "./utils/Buttons/WhiteButton";
 import Alt from "../images/alt.gif";
@@ -11,16 +11,16 @@ import { Link } from "gatsby";
 
 const FirstFold = () => {
 	return (
-		<div className="font-geistLight flex flex-col items-start my-44">
-			<div className="flex mb-0">
-				<div className="w-6/12 flex flex-col gap-4">
+		<div className="font-geistLight flex flex-col items-start my-44 md:p-0 p-6">
+			<div className="flex mb-0 flex-col justify-between md:flex-row w-full">
+				<div className="md:w-6/12 w-full flex flex-col gap-4">
 					<p className="text-white text-2xl flex items-center">
 						<span>
 							<img src={Wave} alt="" className="w-8 inline-block mr-4" />
 						</span>
 						Hello!
 					</p>
-					<h2 className="text-gray-alpha2 text-4xl">
+					<h2 className="text-gray-alpha2 md:text-4xl text-2xl">
 						I’m <span className="text-rol-yellow">Rollen Fernandes</span>
 					</h2>
 					<p className="text-gray-alpha2 text-xl typed-bg">
@@ -42,7 +42,7 @@ const FirstFold = () => {
 							<input type="text" />
 						</Typed>
 					</p>
-					<p className="text-gray-alpha2">
+					<p className="text-gray-alpha2 md:text-auto text-md">
 						A self-taught Graphic designer, functioning in the industry for 1+
 						years now. I specialise in crafting designs that strike a harmonious
 						balance between user requirements and the objectives of businesses.
@@ -95,17 +95,16 @@ const FirstFold = () => {
 							</Link>
 						</div>
 					</div>
-					<div className="flex gap-6">
+					<div className="flex gap-6 md:flex-row flex-col mb-6 ">
 						<YellowButton />
 						<WhiteButton />
 					</div>
 				</div>
 				<div className="bg-img-eclipse m-auto relative">
-					<img src={Alt} alt="rollen" className="rounded-full w-[500px]" />
 					<img
 						src={Profile}
 						alt="rollen"
-						className="absolute top-[50%] left-[50%] -translate-x-[50%] right-0 -translate-y-[50%] grayscale rounded-full w-[200px]"
+						className=" rounded-full w-[300px] ml-auto "
 					/>
 				</div>
 			</div>

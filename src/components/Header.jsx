@@ -7,7 +7,7 @@ const Header = () => {
         <div className="">
             <img src={RFlogo} alt="Rollens Logo" className="w-[80px]" />
         </div>
-        <div className='ml-auto flex gap-8 items-center'>
+        <div className='ml-auto md:flex gap-8 items-center hidden'>
             <Link to="/" className="text-md text-white hover:text-rol-yellow transition-hover ease-in-out duration-300 font-normal">Home</Link>
             <Link to="/" className="text-md text-white hover:text-rol-yellow transition-hover ease-in-out duration-300 font-normal">About</Link>
             <Link to="/" className="text-md text-white hover:text-rol-yellow transition-hover ease-in-out duration-300 font-normal">Project</Link>
